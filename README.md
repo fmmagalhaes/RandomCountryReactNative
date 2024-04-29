@@ -8,4 +8,4 @@ Built in the context of the article [_I built the same app with Flutter, React N
 ## Run
 `npx expo start`
 
-<img src="https://github.com/fmmagalhaes/RandomCountryReactNative/assets/8866496/d639666d-87e4-40be-92fb-5117899dc888" width="500">
+<img src="https://github.com/fmmagalhaes/RandomCountryReactNative/assets/8866496/4801a630-9082-45b4-b11c-feb8818a6a05" width="500">
