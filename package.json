@@ -21,5 +21,6 @@
     "@babel/core": "^7.24.3",
     "react-devtools": "^5.0.2"
   },
-  "private": true
+  "private": true,
+  "homepage": "."
 }
