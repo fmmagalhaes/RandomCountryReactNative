@@ -67,7 +67,7 @@ export default class App extends React.Component {
 
 const CountryDetails = (props) => {
   return (
-    <View>
+    <View style={{ alignItems: "center" }}>
       <Image source={{ uri: props.flag }} style={{ marginBottom: 10, width: 300, height: 200 }} />
       <CountryProperty property="Name" value={props.name} />
       <CountryProperty property="Region" value={props.region} />
