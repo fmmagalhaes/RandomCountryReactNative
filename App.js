@@ -7,7 +7,7 @@ class Country {
     this.name = json['name']['common'];
     this.region = json['region'];
     this.population = json['population'];
-    this.flag = json['flags'][0];
+    this.flag = json['flags']['png'];
     this.capital = json['capital'] ? json['capital'][0] : null;
     this.population = json['population'];
   }
@@ -28,7 +28,7 @@ export default class App extends React.Component {
   }
 
   fetchAllCountries = async () => {
-    const response = await fetch("https://restcountries.com/v3/all");
+    const response = await fetch("https://restcountries.com/v3.1/all?fields=name,capital,flags,population,region");
     const json = await response.json();
     this.countries = json.map(countryData => new Country(countryData));
     return this.countries;
