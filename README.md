@@ -15,4 +15,4 @@ https://fmmagalhaes.github.io/RandomCountryReactNative
 
 ## Deploy to GitHub Pages
 1. `npx expo export:web`
-2. Create a branch called `gh-pages` with the content of the `web-build` folder.
+2. Create a branch called `gh-pages` only with the content of the `web-build` folder.
